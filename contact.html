@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es_ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CONTACTO</title>
+    <script
+      src="https://kit.fontawesome.com/831aa36795.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img src="./imagenes/Puzzle.png" alt="Logo Zpacks"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <!-- <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="http://www.google.com">MENU</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        --></div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Pagina: Contacto</h1>
+    </section>
+    <!-- ------contacto----- -->
+    <section class="location">
+      <!-- 
+         <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.011006154854!2d0.13355036530902867!3d42.70348772133681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a8054c0e8b2e67%3A0x8dd40368649bb727!2sGlaciares%20Pirenaicos%2C%2022365%2C%20Huesca!5e0!3m2!1ses!2ses!4v1618910284505!5m2!1ses!2ses"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    -->
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20491.263048600034!2d-3.772558210127241!3d40.23031331751442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41f5379b2d00ed%3A0x46a059ddafb55889!2sParla%2C%20Madrid!5e0!3m2!1ses!2ses!4v1645561924535!5m2!1ses!2ses"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fas fa-home"></i>
+            <span>
+              <h5>DIRECCION</h5>
+              <p>P sherman calle wallaby 42 sydney</p>
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-phone-alt"></i>
+            <span>
+              <h5>Telefono</h5>
+              <p>+38 6534246</p>
+            </span>
+          </div>
+          <div>
+            <i class="far fa-envelope"></i>
+            <span>
+              <h5>email</h5>
+              <p>correo@delaempresa.es</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="form-handler.php" method="POST">
+            <input type="text" name="name" placeholder="Su nombre" required />
+            <input type="email" name="email" placeholder="Su email" required />
+            <input type="text" name="subjet" placeholder="Asunto" required />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Escribe aqui lo que quieras"
+            ></textarea>
+            <button class="hero-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>sobre nosotros</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Nobis
+        rerum illo reprehenderit amet mollitia error aperiam minus, eligendi ex
+        harum quasi <br />blanditiis ipsa, accusantium magni vitae porro magnam
+        quaerat laborum?
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="far fa-heart"></i> por Raulete</p>
+    </section>
+
+    <!-- ------ JAVASCRIPS ------- -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks")
+      function showMenu() {
+        navLinks.style.right = "0"
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px"
+      }
+    </script>
+  </body>
+</html>

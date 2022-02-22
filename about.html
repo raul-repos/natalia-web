@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es_ES">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./normalize.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>Página web de prueba</title>
+        <script src="https://kit.fontawesome.com/831aa36795.js" crossorigin="anonymous"></script>
+</head>
+    
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./imagenes/logo.png" alt="Logo Zpacks"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="http://www.google.com">MENU</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <H1>about us</H1>
+    </section>  
+<!-- ------contenido de about us------- -->
+
+<section class="about-us">
+    <div class="row">
+       <div class="about-col">
+           <h1>TITULO DEL ABOUT US</h1>
+           <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nisi aliquam animi qui asperiores ipsa harum maxime soluta, fugiat nostrum, iste blanditiis ullam itaque dolore sint delectus? Quae, optio laudantium aliquam <br>harum aliquid accusantium quam, officiis sed dolores, eum deleniti repellendus tenetur similique accusamus! Perferendis in odit commodi, aspernatur laborum inventore necessitatibus qui labore quae. Totam, deleniti laboriosam sequi quidem ullam eius voluptatum dicta esse quaerat assumenda architecto qui, odit a. A, commodi architecto soluta eius assumenda inventore aspernatur magni.</P>
+           <a href="" class="hero-btn">EXPLORE NOW</a>
+       </div> 
+       <div class="about-col">
+           <img src="./imagenes/about_us.jpg" alt="">
+       </div>
+    </div>
+</section>
+
+    <section class="footer">
+        <h4>sobre nosotros</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Nobis rerum illo reprehenderit amet mollitia error aperiam minus, eligendi ex harum quasi <br>blanditiis ipsa, accusantium magni vitae porro magnam quaerat laborum?</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> por Raulete</p>
+
+    </section>
+
+
+<!-- ------ JAVASCRIPS ------- -->
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
