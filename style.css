@@ -1,11 +1,24 @@
+:root {
+  --color-rojo: #f3cfde;
+  --color-amarillo: rgba(242, 231, 201, 255);
+  --color-verde: rgba(208, 243, 233, 255);
+  --color-azul: rgba(207, 211, 240, 255);
+}
+
+.fixed-top {
+  background-color: var(--color-rojo);
+  height: 15%;
+}
+
 .header {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(
-      rgba(95, 201, 127, 0.404),
-      rgba(28, 163, 84, 0.281)
+      rgba(242, 231, 201, 0.5),
+      rgba(242, 231, 201, 0.5)
     ),
     url(./imagenes/kids-pencil.jpg);
+
   background-position: center;
   background-size: cover;
   position: relative;
@@ -78,6 +91,7 @@ nav img {
 }
 
 .hero-btn {
+  border-radius: 25%;
   display: inline-block;
   text-decoration: none;
   color: white;
@@ -91,8 +105,10 @@ nav img {
 }
 
 .hero-btn:hover {
-  border: 1px solid #f44336;
-  background: tomato;
+  border: 1px solid var(--color-verde);
+  background: var(--color-verde);
+  color: darkgrey;
+  font-weight: bold;
 }
 nav .fas {
   display: none;
@@ -228,7 +244,7 @@ h3 {
 }
 
 .layer:hover {
-  background: rgba(226, 0, 0, 0.7);
+  background: rgba(208, 243, 233, 0.5);
 }
 
 .layer h3 {
@@ -370,8 +386,8 @@ h3 {
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(
-      rgba(8, 168, 27, 0.219),
-      rgba(1, 158, 35, 0.164)
+      rgba(242, 231, 201, 0.5),
+      rgba(242, 231, 201, 0.5)
     ),
     url(./imagenes/kid-learning.jpg);
   background-position: center;
