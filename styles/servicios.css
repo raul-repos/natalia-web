@@ -125,3 +125,24 @@ body {
   padding: 0rem 15rem;
   text-justify: distribute-all-lines;
 }
+
+.mensaje_final {
+  border: 1px solid green;
+  text-align: center;
+  font-size: 2rem;
+}
+.card {
+  border: 1px solid red;
+}
+.todos_servicios {
+  border: 2px dotted red;
+}
+
+.cabecera_logo {
+  max-width: 20rem;
+  max-height: auto;
+}
+.cabecera_logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
