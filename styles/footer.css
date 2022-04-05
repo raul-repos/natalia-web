@@ -1,0 +1,104 @@
+.footer{
+    border-top: 10px solid #f3cfde;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    background-color: #cfd3f0;
+    height: 50vh;
+
+}
+/*
+.footer-ubicacion{
+   position: absolute;
+   width: 10rem;
+   height: 50rem;
+   border: 5px solid tomato;
+   right: 0px;
+}
+.map{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}*/
+.location {
+    /* position: absolute; */
+    right: 0;
+    width: 40%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+span{
+    font-family: "Noto Sans JP";
+}
+span p{
+    font-size: large;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 40px; */
+}
+
+.contact-col div .fas,
+.contact-col div .far {
+    font-size: 45px;
+    color: #d0f3e9;
+    text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+    margin: 10px;
+    margin-right: 30px;
+    
+}
+
+.contact-col div p {
+    padding: 0;
+    color: black;
+    font-size: 20px;
+}
+
+.contact-col div h5 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: black;
+    
+    font-weight: 900;
+}
+
+/* ----- formulario de contacto- */
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.contact-col .hero-btn {
+    background-color: #f3cfde;
+}
+.cleideo{
+    margin-top: 3.5rem;
+    margin-right: 5rem;
+    position: absolute;
+    right: 0;
+}
