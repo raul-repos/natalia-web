@@ -4,22 +4,10 @@
     width: 100%;
     margin: 0;
     background-color: #cfd3f0;
-    height: 50vh;
+    height: 75vh;
 
 }
-/*
-.footer-ubicacion{
-   position: absolute;
-   width: 10rem;
-   height: 50rem;
-   border: 5px solid tomato;
-   right: 0px;
-}
-.map{
-    width: 80%;
-    margin: auto;
-    padding: 80px 0;
-}*/
+
 .location {
     /* position: absolute; */
     right: 0;
@@ -82,23 +70,32 @@ span p{
     font-weight: 900;
 }
 
-/* ----- formulario de contacto- */
-
-.contact-col input,
-.contact-col textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 1px solid #ccc;
-}
-
-.contact-col .hero-btn {
-    background-color: #f3cfde;
-}
 .cleideo{
     margin-top: 3.5rem;
     margin-right: 5rem;
     position: absolute;
     right: 0;
+}
+
+.icons{
+    border: 1px solid green;
+    float: right;
+    position: absolute;
+    right: 30rem;
+    bottom: 5rem;
+    
+}
+.icons .fab{
+    border: 1px solid red;
+    height: 15px;
+    color: #f3cfde;
+    text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+    margin: 10px;
+    margin: 0 13px;
+    padding: 18px 0;
+    cursor: pointer;
+    margin: 5rem;
 }
