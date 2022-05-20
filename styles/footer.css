@@ -1,5 +1,5 @@
 .footer{
-    border-top: 10px solid #f3cfde;
+    border-top: 1rem solid #f3cfde;
     position: relative;
     width: 100%;
     margin: 0;
@@ -78,11 +78,14 @@ span p{
 }
 
 .icons{
+    display: block;
     border: 1px solid green;
-    float: right;
+    /* float: right;
     position: absolute;
     right: 30rem;
-    bottom: 5rem;
+    bottom: 5rem; */
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .icons .fab{
