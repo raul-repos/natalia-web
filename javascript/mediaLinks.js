@@ -1,5 +1,5 @@
 const facebookClick = () => {
-  window.open("https://www.facebook.com/search/top?q=centro%20crealia")
+  window.open("https://www.facebook.com/centrocrealia/")
 }
 
 function instagramClick() {
